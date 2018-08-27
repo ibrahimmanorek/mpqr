@@ -1,0 +1,6 @@
+
+tsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(Æ·‚şÿÿÿÿ8·‰…±Ã,
+fsquid:S2095"JUse try-with-resources or close this "XSSFWorkbook" in a "finally" clause.(š»ê˜8·‰…±Ã,
+esquid:S2095"IUse try-with-resources or close this "PrintStream" in a "finally" clause.(®›½ô8·‰…±Ã,
+[squid:S1118":Add a private constructor to hide the implicit public one.(¨€Âàûÿÿÿÿ8·‰…±Ã,
+`squid:S2147"DCombine this catch with the one at line 91, which has the same body.(îæ³8·‰…±Ã,

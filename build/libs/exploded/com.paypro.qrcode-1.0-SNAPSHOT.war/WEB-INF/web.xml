@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+    <!-- Processes application requests -->
+    <servlet>
+        <servlet-name>qrcodegeneration</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <init-param>
+            <param-name>contextConfigLocation</param-name>
+            <param-value>/WEB-INF/applicationContext.xml</param-value>
+        </init-param>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>qrcodegeneration</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+
+    <!-- The definition of the Root Spring Container shared by all Servlets and Filters -->
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>/WEB-INF/rootContext.xml</param-value>
+    </context-param>
+
+    <!-- Creates the Spring Container shared by all Servlets and Filters -->
+    <listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+
+    <listener>
+        <display-name>Spring Request Context Listener</display-name>
+        <listener-class>org.springframework.web.context.request.RequestContextListener</listener-class>
+    </listener>
+
+    <listener>
+        <display-name>ImageIO service provider loader/unloader</display-name>
+        <listener-class>com.twelvemonkeys.servlet.image.IIOProviderContextListener</listener-class>
+    </listener>
+
+</web-app>

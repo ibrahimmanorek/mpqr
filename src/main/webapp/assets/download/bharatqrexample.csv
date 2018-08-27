@@ -1,0 +1,9 @@
+*)merchantName;*)countryCode;*)country;*)city;*)merchantCategoryCode;postalCode;*)merchantIdentifier;*)identifierValue;*)currencyCode;transactionAmount;tipOrCovenienceIndicator;billNumber;mobileNumber;storeId;loyaltyNumber;referenceId;cunsumerId;terminalId;purpose;bharatQrMaid
+Bharat1;ID;Indonesia;Jakarta Utara;8765;12790;2;4,60068E+15;360;5000;;;;;;;;;;
+Bharat2;ID;Indonesia;Jakarta Selatan;5678;12790;2;4,60E+15;360;4000;;;;;;;;;;
+Bharat3;ID;Indonesia;Jakarta Barat;7612;12790;2;4,60E+15;360;5000;;;;;;;;;;
+Bharat4;ID;Indonesia;Bekasi Barat;5112;12790;2;4,60E+15;360;5000;;;;;;;;;;
+Bharat5;ID;Indonesia;Depok;6123;12790;2;4,60E+15;360;5000;;;;;;;;;;
+Bharat6;ID;Indonesia;Tangerang;6242;12790;2;4,60E+15;360;5000;;;;;;;;;;
+Bharat7;ID;Indonesia;Jakarta Utara;7445;12790;2;4,60E+15;360;5000;;;;;;;;;;
+Bharat8;ID;Indonesia;Jakarta Timur;7565;12790;2;4,60E+15;360;5000;;;;;;;;;;

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="pushpayment-core-sdk-2.0.2-javadoc">
+    <CLASSES />
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/lib/pushpayment-core-sdk-2.0.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
